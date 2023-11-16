@@ -64,7 +64,11 @@ Eommcerce API is an API for an ecommerce platform admin to manage product invent
          &emsp;   &emsp;  },<br>
        &emsp;   &emsp;    message: updated successfully<br>
         &emsp;   }
+
+
+
 ### Usage
+* Clone git repository in your system :  https://github.com/mr-codex/Ecommerce_Api.git
 * Run npm installl to install all the dependencies
 * Run npm start to start the application.
 * Connect to the API using Postman on port 8000.
@@ -73,7 +77,7 @@ Eommcerce API is an API for an ecommerce platform admin to manage product invent
 | HTTP Verbs | Endpoints | Action |
 | --- | --- | --- |
 | GET | /products | To Get all Products|
-| POST | /products | To add a product |
+| POST | /products/create| To add a product |
 | POST | /products/:id/update_quantity/?number=10| To Update Product quantity |
 | DELETE |  /products/:id|To Delete a product |
 
